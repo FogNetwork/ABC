@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Windowo Demo</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<center>
+<title>Windowo Demo</title>
+
+<h1 class="title">Windowo Demo</h1>
+<textarea id="code" spellcheck="false">
+//Creates new Windowo
+var page = new Windowo({
+    "type": "blank", //Blank, blob, or overwrite
+    "url": "https://example.com" //Any url
+})
+//Set the type
+page.setType("blank")
+//Set the url
+page.setUrl("https://example.com")
+//Get iframe code
+console.log(page.getCode())
+//Open page
+page.open()</textarea>
+
+<br>
+
+<button class="run" onclick="eval(document.getElementById('code').value)">Run</button>
+</center>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+center {
+display: block;
+text-align: -webkit-center;
+}
+
+.title {
+font-size: 60px;
+}
+
+#code {
+width: 400px;
+height: 241px;
+font-size: 15px;
+resize: none;
+border: 2px solid black;
+border-radius: 2.5px;
+}
+
+.run {
+height: 40px;
+width: 80px;
+font-size: 30px;
+cursor: pointer;
+margin: 10px;
+background: transparent;
+border: 2px solid black;
+border-radius: 2.5px;
+}
+</style>
+
+</body>
+</html>
