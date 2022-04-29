@@ -24,7 +24,7 @@ Despite what you have heard, it will still be blockable because your viewing the
 ## Basic Example
 **HTML**
 ```html
-<script src=""></script>
+<script src="https://cdn.jsdelivr.net/gh/FogNetwork/Windowo/index.js"></script>
 ```
 **Javascript**
 ```js
