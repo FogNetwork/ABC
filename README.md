@@ -1,5 +1,5 @@
 # Windowo
-A javascript library for creating websites with hidden urls.
+A javascript library for creating websites with hidden urls. [Demo](https://fognetwork.github.io/Windowo)
 
 ## Types
 ### About
