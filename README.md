@@ -48,4 +48,4 @@ Nebelung - For this thing
 
 Veracity - See below
 
-Both the about:blank method and fullscreen iframe have be around for a while but veracity combined them to from Utopia
+Both the about:blank method and fullscreen iframe have be around for a while but veracity combined them to from [Utopia](https://discord.gg/hFZC5cgsmq)
