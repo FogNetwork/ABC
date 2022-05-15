@@ -1,5 +1,5 @@
-# Windowo
-A javascript library for creating websites with hidden urls. [Demo](https://fognetwork.github.io/Windowo)
+# A:BC (About:Blank Cloak)
+A javascript library for creating websites with hidden urls. [Demo](https://fognetwork.github.io/ABC)
 
 ## Types
 ### About
@@ -22,14 +22,16 @@ The about method does hide the website from your history. The blob one does go i
 Despite what you have heard, it will still be blockable because your viewing the website just in an iframe.
 
 ## Basic Example
+Note: You can also locally host ABC on your website
+
 **HTML**
 ```html
-<script src="https://cdn.jsdelivr.net/gh/FogNetwork/Windowo/index.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/FogNetwork/ABC/index.js"></script>
 ```
 **Javascript**
 ```js
-//Creates new Windowo
-var page = new Windowo({
+//Creates new ABC
+var page = new ABC({
     "type": "blank", //Blank, blob, or overwrite
     "url": "https://example.com" //Any url
 })
