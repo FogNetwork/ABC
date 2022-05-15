@@ -1,4 +1,4 @@
-class Windowo {
+class ABC {
 constructor(config = {}) {
 this.type = config.type || "blank"
 this.url = config.url || "about:blank"
