@@ -22,7 +22,7 @@ The about method does hide the website from your history. The blob one does go i
 Despite what you have heard, it will still be blockable because your viewing the website just in an iframe.
 
 ## Basic Example
-Note: You can also locally host ABC on your website
+Note: You can also locally host ABC on your website. Just download [this file](https://github.com/FogNetwork/ABC/blob/main/index.js) and change the src to `/index.js` or your file path
 
 **HTML**
 ```html
